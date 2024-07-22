@@ -1,0 +1,51 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.card {
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.swiggy-img {
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+button {
+  background-color: purple;
+  padding: 10px 25px;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.bi-bell-fill {
+  font-size: 30px;
+}
+.d-none {
+  margin-left: 5px;
+  background-color: rgb(171, 222, 94);
+  box-sizing: border-box;
+  padding: 5px;
+  font-weight: bolder;
+  /* margin: 0; */
+  border-radius: 7px;
+}
+.conatiner {
+  width: 250px;
+}
